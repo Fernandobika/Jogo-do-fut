@@ -31,3 +31,108 @@ nav ul li{
 display: inline;
   margin: 0 20px;
 }
+
+nave ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+nav ul li  a:houver {
+  color:#f39c12;
+}
+
+section{
+  padding: 40px 20px;
+  margin: 20px 0;
+}
+
+h2{
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 1.8;
+}
+
+p{
+  font-size: 1.1em;
+  color: #555;
+  line-heigth: 1.8;
+}
+
+#pacotes{
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0.4 8px rgba(0,0,0.1)
+}
+
+#pacotes p{
+  font-size: 1.2em;
+  color: #666;
+}
+
+  #sobre{
+    background-color: #fafafa;
+    padding: 50px 20px;
+    text-aling: center;
+  }
+
+sobre p {
+  font-size: 1.2em;
+  color: #777;
+}
+
+#contato{
+  background-color: #fff;
+  border-top: 2px solid #ddd;
+  padding: 50px 20px;
+  text-aling: center;
+}
+
+#contato p {
+  font-size: 1.2em;
+  color: #333;
+}
+
+footer{
+  background-color: #1a1a1a;
+  color: #333;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+@media (max-width:768px) {
+  nav ul li{
+    dispaly: block:
+    margin-bottom:. 10px;
+  }
+
+  header h1{
+    font-size: 2em;
+  }
+
+  section{
+    padding: 20px;
+  }
+
+  h2{
+    font-size: 1.8px
+  }
+}
+
+@madi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
