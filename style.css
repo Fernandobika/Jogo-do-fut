@@ -7,7 +7,12 @@
 body{
 font-family:'Arial', snas-serif;
 line-heigth: 1.6;
-backgrond-color:#f4f4f4;
+background:
+  linear-gradient ( rgba(0,0,0,0,0.4), rgba(0,0,0,0,0.4) ),
+  url('img/fundo.jpg')
+backgrond-image: url('img/fundo.jpg');
+backgound-position: center;
+background-repeat: no-repeat;
 color: #333;
 }
 
