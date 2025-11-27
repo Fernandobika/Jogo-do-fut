@@ -5,9 +5,9 @@
 }
 
 body{
-font-family:'Arial', snas-serif;
+font-family:'Arial', sans-serif;
 line-height: 1.6;
-background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+background-image:linar-gradient (rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 background-image: url('img/fundo.jpg');
 background-position: center;
 background-repeat: no-repeat;
@@ -39,7 +39,7 @@ display: inline;
   margin: 0 20px;
 }
 
-nave ul li a {
+nave ul li a:hover{
   color: #fff;
   text-decoration: none;
   font-size: 1.2em;
@@ -58,7 +58,7 @@ section{
 h2{
   font-size: 2em;
   color: #333;
-  margin-bottom: 1.8;
+  margin-bottom: 1.8em;
 }
 
 p{
@@ -70,7 +70,7 @@ p{
 #pacotes{
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0.4 8px rgba(0,0,0.1)
+  box-shadow: 0.4px 8px rgba(0,0,0.1)
 }
 
 #pacotes p{
@@ -78,7 +78,7 @@ p{
   color: #666;
 }
 
-  #sobre{
+  #sobre {
     background-color: #fafafa;
     padding: 50px 20px;
     text-align: center;
